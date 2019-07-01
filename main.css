@@ -1,3 +1,119 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #333232;
+}
+h3 {
+  color:white;
+  text-align: center;
+}
+.albums {
+  width: 90%;
+  margin: 0 auto;
+}
+.album {
+  max-width: 20%;
+  background: white;
+  padding: 15px;
+  float: left;
+  box-sizing: border-box;
+  margin: 15px 2.5%;
+  cursor: pointer;
+}
+.album.selected {
+  -webkit-box-shadow: 0px 0px 161px -5px rgba(116,220,255,100);
+  -moz-box-shadow: 0px 0px 161px -5px rgba(116,220,255,100);
+  box-shadow: 0px 0px 161px -5px rgba(116,220,255,100);
+}
+.album img {
+  width: 100%;
+}
+.album .title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+}
+.album .artist{
+  font-size: 10px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+.notifications {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.notification {
+  width: 300px;
+ height: 70px;
+ background-color: whitesmoke;
+ border-radius: 7px;
+ box-shadow: 0 1px 4px #1c4963;
+ overflow: hidden;
+ cursor: pointer;
+ margin: 10px 0;
+ display: none;
+}
+.notification.active {
+  margin: 0 0 10px 0;
+}
+.circle {
+  width: 28px;
+  height: 20px;
+  display: block;
+  border-radius: 100%;
+  transform: translate(17px, 17px);
+  color: whitesmoke;
+  padding: 10px 0 10px 13px;
+}
+.tab > .circle {
+  background-color: #3E5A8F;
+}
+.tab > .info span:first-child {
+  color: #3E5A8F;
+}
+.rd > .circle {
+  background-color: #de3b12;
+}
+
+.rd > .info span:first-child {
+  color: #de3b12;
+}
+.or > .circle {
+  background-color: #c87a46;
+}
+
+.or > .info span:first-child {
+  color: #c87a46;
+}
+
+.bl > .circle {
+  background-color: #225877;
+}
+
+.bl > .info span:first-child {
+  color: #225877;
+}
+.info {
+  width: 230px;
+  height: 70px;
+  transform: translate(70px, -35px);
+  padding: 10px;
+}
+.info span:first-child {
+  display: block;
+  color: #38ad65;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.info span:last-child {
+  color: #919191;
+  font-size: 13px;
+}
+.info span a {
+  color: #545454;
+  text-decoration: none;
+  font-weight: 600;
 }
