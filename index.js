@@ -14,3 +14,19 @@
 
 
 // save button click notification
+var notify = document.querySelector('.notification')
+var albums = document.querySelectorAll('.album')
+var itemsTotal = document.querySelector('.items-total')
+var saveButton = document.querySelector('.button')
+
+var albumsSelected = []
+var i = 0
+
+while (i < albums.length) {
+  albums[i].onclick = function(e) {
+    var albumTitle = this.querySelector('.title').textContent
+    console.log(albumTitle);
+  }
+  console.log(i);
+  i++;
+}
