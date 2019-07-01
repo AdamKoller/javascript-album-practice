@@ -6,6 +6,17 @@ h3 {
   color:white;
   text-align: center;
 }
+.button{
+  background: red;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 100px auto;
+  display: inline-block;
+  cursor: pointer;
+}
 .albums {
   width: 90%;
   margin: 0 auto;
@@ -58,6 +69,9 @@ h3 {
 .notification.active {
   margin: 0 0 10px 0;
 }
+.notification:first-child {
+  margin: 0 0 10px 0;
+}
 .circle {
   width: 28px;
   height: 20px;
@@ -67,10 +81,10 @@ h3 {
   color: whitesmoke;
   padding: 10px 0 10px 13px;
 }
-.tab > .circle {
+.gr > .circle {
   background-color: #3E5A8F;
 }
-.tab > .info span:first-child {
+.gr > .info span:first-child {
   color: #3E5A8F;
 }
 .rd > .circle {
@@ -112,7 +126,7 @@ h3 {
   color: #919191;
   font-size: 13px;
 }
-.info span a {
+.info span i {
   color: #545454;
   text-decoration: none;
   font-weight: 600;
