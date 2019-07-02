@@ -81,34 +81,6 @@ h3 {
   color: whitesmoke;
   padding: 10px 0 10px 13px;
 }
-.gr > .circle {
-  background-color: #3E5A8F;
-}
-.gr > .info span:first-child {
-  color: #3E5A8F;
-}
-.rd > .circle {
-  background-color: #de3b12;
-}
-
-.rd > .info span:first-child {
-  color: #de3b12;
-}
-.or > .circle {
-  background-color: #c87a46;
-}
-
-.or > .info span:first-child {
-  color: #c87a46;
-}
-
-.bl > .circle {
-  background-color: #225877;
-}
-
-.bl > .info span:first-child {
-  color: #225877;
-}
 .info {
   width: 230px;
   height: 70px;
