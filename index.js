@@ -26,7 +26,7 @@ while (i < albums.length) {
         return item !== albumTitle
       })
     }
-    console.log(i);
+    console.log(albumsSelected);
   }
   i++;
 }
